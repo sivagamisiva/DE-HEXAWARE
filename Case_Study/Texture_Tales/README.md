@@ -1,54 +1,62 @@
-📁 Project Overview
-This project focuses on performing sales analysis using SQL Server. It involves creating a database, designing tables, inserting data manually, and running analytical queries to extract useful business insights.
+# 📘 Sales Analysis SQL Project
 
-📂 Work Completed
+## 📁 Project Overview
 
-✅ 1. Created the Database
-A new database named SalesAnalysisDB was created to store all related sales data.
+This SQL project is focused on analyzing sales performance using multiple relational tables. It replicates a real-world scenario where multiple sources like sales data, product details, and pricing structure are combined to draw meaningful business insights.
 
-✅ 2. Designed and Created Tables
-Two main tables were created:
+## ✅ 1. Created the Database
 
-sales – to store transaction-level sales data (product ID, quantity, price, discount, etc.)
+A new database named `SalesAnalysisDB` was created in SQL Server Management Studio (SSMS) using `CREATE DATABASE` command.
 
-product_details – to store product-related metadata (product name, segment, etc.)
+## ✅ 2. Designed and Created Tables
 
-✅ 3. Inserted Sample Records
-Sample records were inserted manually using .sql file scripts.
+## sales Table
 
-This included inserting at least 10+ sample rows into each table for testing queries.
+Stores transactional data with columns like `txn_id`, `product_id`, `quantity_sold`, `discount`, `txn_date`.
 
-✅ 4. Performed Data Analysis
-Various queries were written and executed to analyze the data.
+## product_details Table
 
-Analysis included:
+Contains descriptive information about each product including `product_id`, `product_name`, and `segment_name`.
 
-Total quantity sold.
+## product_prices Table
 
-Segment-wise product performance.
+Maintains price-related information for each product, including `product_id` and `price`.
 
-Revenue and discount calculations.
+## product_hierarchy Table
 
-Identifying top-selling products.
+Defines the product classification with `product_id`, `category`, and `subcategory` to support hierarchical analysis.
 
-Summary reports based on product segments.
+## ✅ 3. Inserted Sample Records
 
-✅ 5. Captured Screenshots
-Screenshots were taken for:
+Sample data was manually inserted into all four tables using `INSERT INTO` queries. At least five records were added per table to ensure sufficient data for testing joins, filters, and aggregations.
 
-Database creation
+## ✅ 4. Performed Data Analysis
 
-Table creation
+Multiple queries were written to analyze sales trends, segment performance, and top products. Aggregates like `SUM`, `AVG`, and SQL joins were used to extract combined insights from all related tables.
 
-Data insertion
+## ✅ 5. Captured Screenshots
 
-Query results
+Screenshots were taken for each of the following steps:
+Database creation, table creation, data insertion, and final output of each analysis query.
 
-✅ 6. Practiced SQL Joins
-Successfully implemented inner joins to combine data from multiple tables for better analysis.
+## ✅ 6. Practiced Joins and Aggregations
 
-✅ 7. Learned SQL Window Functions
-Used advanced SQL concepts like ROW_NUMBER() with PARTITION BY and ORDER BY to identify top-performing products within each segment.
+INNER JOIN, LEFT JOIN, and aggregate functions like `SUM`, `COUNT`, and `AVG` were used to connect tables and perform calculations on grouped data.
 
-📌 Purpose of the Project
-To practice real-time SQL skills and understand how to perform data analysis directly using structured queries in SQL Server. This helps in developing insights from raw data stored in relational tables.
+## ✅ 7. Implemented Subqueries and Filters
+
+Subqueries were used for ranking and filtering top-performing products. Filtering was performed using `WHERE`, `GROUP BY`, `HAVING`, and `ORDER BY` clauses.
+
+## ✅ 8. Used Window Functions
+
+Applied `ROW_NUMBER()` and `RANK()` functions over partitions to identify top-selling products within segments and categories.
+
+## 📚 About the Case Study
+
+This case study mimics a sales analytics task performed by a data analyst in a retail company. The goal is to integrate data from product, pricing, and transactional sources to uncover insights that support business decisions. The use of multiple normalized tables ensures a realistic, scalable design approach.
+
+## 🎯 Purpose of the Project
+
+To gain hands-on experience with SQL Server and apply real-world concepts such as database creation, relational modeling, manual data entry, and multi-table analysis through complex SQL queries.
+
+
