@@ -2,6 +2,7 @@
 This project focuses on performing sales analysis using SQL Server. It involves creating a database, designing tables, inserting data manually, and running analytical queries to extract useful business insights.
 
 📂 Work Completed
+
 ✅ 1. Created the Database
 A new database named SalesAnalysisDB was created to store all related sales data.
 
