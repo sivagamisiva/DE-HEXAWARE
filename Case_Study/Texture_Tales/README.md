@@ -1,4 +1,4 @@
-# 📘 Sales Analysis SQL Project
+# 📘 Texture Tales Case Study
 
 ## 📁 Project Overview
 
