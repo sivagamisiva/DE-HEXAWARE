@@ -1,12 +1,12 @@
-# 📘 MongoDB Product Collection Project
+# 📘 MongoDB Product Collection CaseStudy
 
-This project focuses on working with MongoDB using Compass and Shell to manage a product collection. It involves creating a database, inserting JSON documents, and performing basic operations like filtering and retrieving product data.
+This case study focuses on working with MongoDB using Compass and Shell to manage a product collection. It involves creating a database, inserting JSON documents, and performing basic operations like filtering and retrieving product data.
 
 ---
 
-## 🗂️ 1. Project Overview
+## 🗂️ 1. Case Study Overview
 
-In this project, I worked with MongoDB to:
+In this, I worked with MongoDB to:
 - Create a new database and collection
 - Insert sample product data using JSON
 - Explore and filter data using Mongo Shell
@@ -47,4 +47,4 @@ The goal was to understand how MongoDB handles real-world document-based data us
 
 ## 📌 5. Conclusion
 
-This project gave me a practical understanding of MongoDB fundamentals. I successfully created and managed a product database, explored real-world JSON data, and performed basic NoSQL operations. It helped strengthen my skills in handling document-based databases and prepared me for more advanced MongoDB usage.
+This case study gave me a practical understanding of MongoDB fundamentals. I successfully created and managed a product database, explored real-world JSON data, and performed basic NoSQL operations. It helped strengthen my skills in handling document-based databases and prepared me for more advanced MongoDB usage.
